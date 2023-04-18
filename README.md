@@ -3,10 +3,13 @@
 
 ---
 
-This repo is to demonstrate that Storybook does not respond when started from WSL2.
+This repo is to demonstrate that Storybook does not respond when started from WSL2. If you clone this repo into WSL2 it will not serve any data. If you clone this repo into Windows it will start.
 
----
+Here's a screenshot of what Chrome responds with when served from WSL2:
 
+![WSL_Chrome_Screenshot](WSL_Chrome_Screenshot.png "Title")
+
+I can confirm that hitting the server with a curl from either WSL or Windows returns the index page. However, the browser does not receive any data (Tested with Chrome and Edge.)
 
 ---
 
